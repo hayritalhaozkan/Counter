@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(0, 143, 175);
+}
+
+.divCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    font-size: 50px;
+}
+.value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: rgb(0, 143, 175);
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: none;
+    padding: 50px;
+    
+}
+.decrease{
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 35px;
+}
+.reset{
+    font-size: 35px;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.increase{
+    font-size: 35px;
+    border-radius: 15px;
+    background-color:rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left:35px;
+}
+.decrease:hover{
+    background-color: red;
+    color: white;
+}
+.reset:hover {
+    background-color: rgb(0, 143, 175);
+    color: white;
+}
+.increase:hover{
+    background-color: green;
+    color: white;
+}
+
+    
+
+    
